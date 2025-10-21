@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+:root {
+    --primary-color: rgb(102, 113, 233);
+    --secondary-color: rgb(143, 151, 244);
+    --accent-color: rgb(219, 251, 252);
+    --shadow-color: rgb(194, 214, 234);
+}
+
+button.primary {
+    padding: 10px;
+    border: solid 1px var(--primary-color);
+    background: var(--primary-color);
+    color: beige;
+    border-radius: 8px;
+}
