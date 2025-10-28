@@ -10,18 +10,5 @@ import { CommonModule } from '@angular/common';
   imports: [CommonModule, HousingLocationComponent],
 })
 export class Home {
-  readonly baseUrl = 'https://cdn.pixabay.com/photo/2017/03/27/13/28/man-2178721_1280.jpg';
-
-  housingLocationList: HousingLocation[] = [
-    {
-      id: 555,
-      name: 'hello',
-      city: 'cbba',
-      state: 'cbba',
-      photo: `${this.baseUrl}`,
-      availableUnits: 44,
-      wifi: true,
-      laundry: true,
-    },
-  ];
+  housingLocationList: HousingLocation [] = [];
 }
